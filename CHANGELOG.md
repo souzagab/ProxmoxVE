@@ -10,21 +10,52 @@
 > [!CAUTION]
 Exercise vigilance regarding copycat or coat-tailing sites that seek to exploit the project's popularity for potentially malicious purposes.
 
+## 2025-12-06
+
+### 🚀 Updated Scripts
+
+  - Update domain-locker-install.sh to enable auto-start after reboot [@alexindigo](https://github.com/alexindigo) ([#9715](https://github.com/community-scripts/ProxmoxVE/pull/9715))
+
+  - #### 🐞 Bug Fixes
+
+    - InfluxDB: Remove InfluxData source list post-installation [@tremor021](https://github.com/tremor021) ([#9723](https://github.com/community-scripts/ProxmoxVE/pull/9723))
+    - InfluxDB: Update InfluxDB repository key URL [@tremor021](https://github.com/tremor021) ([#9720](https://github.com/community-scripts/ProxmoxVE/pull/9720))
+
+  - #### ✨ New Features
+
+    - pin Portainer Update to CE Version only [@sgaert](https://github.com/sgaert) ([#9710](https://github.com/community-scripts/ProxmoxVE/pull/9710))
+
 ## 2025-12-05
 
 ### 🆕 New Scripts
 
-  - MeTube ([#9671](https://github.com/community-scripts/ProxmoxVE/pull/9671))
+  - Endurain ([#9681](https://github.com/community-scripts/ProxmoxVE/pull/9681))
+- MeTube ([#9671](https://github.com/community-scripts/ProxmoxVE/pull/9671))
 
 ### 🚀 Updated Scripts
 
-  - Improve NVIDIA device detection for container passthrough [@MickLesk](https://github.com/MickLesk) ([#9670](https://github.com/community-scripts/ProxmoxVE/pull/9670))
-
   - #### 🐞 Bug Fixes
 
+    - libretranslate: pin uv python to 3.12 (pytorch fix) [@MickLesk](https://github.com/MickLesk) ([#9699](https://github.com/community-scripts/ProxmoxVE/pull/9699))
+    - alpine: (mariadb/postgresql): correct php-cgi path for php83 (adminer) [@MickLesk](https://github.com/MickLesk) ([#9698](https://github.com/community-scripts/ProxmoxVE/pull/9698))
+    - fix(librespeed-rs): use correct service name [@jniles](https://github.com/jniles) ([#9683](https://github.com/community-scripts/ProxmoxVE/pull/9683))
+    - NetVisor: fix daemon auto-config [@vhsdream](https://github.com/vhsdream) ([#9682](https://github.com/community-scripts/ProxmoxVE/pull/9682))
+    - Improve NVIDIA device detection for container passthrough [@MickLesk](https://github.com/MickLesk) ([#9670](https://github.com/community-scripts/ProxmoxVE/pull/9670))
     - Fix AdventureLog installation failure: missing postgis extension permissions [@Copilot](https://github.com/Copilot) ([#9674](https://github.com/community-scripts/ProxmoxVE/pull/9674))
     - paperless: ASGI interface typo [@MickLesk](https://github.com/MickLesk) ([#9668](https://github.com/community-scripts/ProxmoxVE/pull/9668))
     - var. core fixes (bash to sh in fix_gpu_gids ...)  [@MickLesk](https://github.com/MickLesk) ([#9666](https://github.com/community-scripts/ProxmoxVE/pull/9666))
+
+  - #### ✨ New Features
+
+    - tools.func: handle GitHub 300 Multiple Choices in tarball mode [@MickLesk](https://github.com/MickLesk) ([#9697](https://github.com/community-scripts/ProxmoxVE/pull/9697))
+
+  - #### 🔧 Refactor
+
+    - Refactor: OneDev [@MickLesk](https://github.com/MickLesk) ([#9597](https://github.com/community-scripts/ProxmoxVE/pull/9597))
+
+### 📂 Github
+
+  - chore(github): improve PR template and cleanup obsolete references | move contribution guide [@MickLesk](https://github.com/MickLesk) ([#9700](https://github.com/community-scripts/ProxmoxVE/pull/9700))
 
 ## 2025-12-04
 
